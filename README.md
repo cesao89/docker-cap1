@@ -11,5 +11,5 @@ Docker rodando com imagem do Node
 Iniciando com o **DOCKER** com compartilhamento do volume
 ```sh
 $ docker build -t cesao89/node .
-$ docker run --name node -d -p "80:3000" cesao89/ralcontrol
+$ docker run --name node -d -p "80:3000" cesao89/node
 ```
